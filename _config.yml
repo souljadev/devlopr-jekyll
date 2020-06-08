@@ -28,7 +28,7 @@ author_logo: profile.png
 author: Brendan Moy
 author_bio: Fullstack Developer who likes to Cook, try new restaurants, code, games
 author_email: "brendan.moy@gmail.com"
-author_website_url: "http://www.brendanmoy.com"
+author_website_url: "https://www.brendanmoy.com"
 typewrite-text: devlopr is a jekyll theme built for developers
 
 author_work_experiences:
@@ -66,13 +66,12 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: mindoftheb
 github_username:  souljadev
-linkedin_username: johndoe
+linkedin_username: brendanmoy
 instagram_username: princeofchinatown
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+mailchimp_form_url: 
 
 # formspree (contact form)
 formspree_email: brendan.moy@gmail.com

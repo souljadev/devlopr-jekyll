@@ -9,7 +9,7 @@ summary: Testing CMS Article
 ---
 # Hello World ,
 
-This is a ***Test Post*** that is created by **Netlify**
+This is a ***Test Post*** that is created by **fy**
 
 ```
 <h1> Test Code </h1>
