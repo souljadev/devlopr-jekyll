@@ -540,6 +540,13 @@ header {
         margin: 2px;
         text-decoration: none !important;
     }
+    .email {
+        color: var(--email-color) !important;
+        font-size: 15px;
+        padding: 5px;
+        margin: 2px;
+        text-decoration: none !important;
+    }
     #header-nav{
         float: right;
         margin-inline-start: 45px;
