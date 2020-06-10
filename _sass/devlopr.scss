@@ -206,6 +206,18 @@ header {
     background-color: var(--card-background-color) !important;
 }
 
+.left-card-title {
+    font-family: Arial,
+    "Helvetica Neue",
+    Helvetica,
+    sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+}
+
 #topNav{
     padding-left: 100px;
     padding-right: 100px;
@@ -437,26 +449,27 @@ header {
 }
 
 
-/* Homepage project cards*/
+/* Homepage charities cards*/
 
-#project-card{
+#charities-card{
     margin: 0px !important;
 }
 #article{
     margin-left: 35px !important;
     margin-top: 20px !important;
 }
-.project_thumbnail{
+.charities_thumbnail{
     text-align: center;
 }
-.project-img{
-    width:150px;
-    height:100px;
+
+.charity-image {
+    width: 300px;
 }
-.project_details{
+
+.charities_details{
     padding: 10px;
 }
-.project_links {
+.charities_links {
     margin: 4px;
     padding-top: 32px;
     padding-left: 50px !important;
@@ -472,7 +485,7 @@ header {
     grid-template-columns: 1fr 7fr 4fr;
 }
 
-#recent-articles,#recent-projects{
+#recent-articles,#recent-charitiess{
     margin-top: 100px !important;
 }
 
@@ -562,15 +575,15 @@ header {
 
 }
 
-#author_projects {
-    .project-img {
+#charities {
+    .charities-img {
         width: 300px;
         height: 200px;
     }
-    #project-card{
+    #charities-card{
         margin-top:30px;
     }
-    .project-link{
+    .charities-link{
         color: var(--link-color);
     }
 }
