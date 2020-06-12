@@ -98,14 +98,16 @@ layout: default
             class="charity-image"
           />
         </div>
-        <div class="col-md-6 center">
+        <div class="col-md-4 center">
           <h4 class="charity-title">{{ charities.charity_title }}</h4>
           <h6 class="charity-info">{{ charities.charity_info}}</h6>
           <p class="charity-desc">{{ charities.charity_description }}</p>
+          <p><a class="charities-link" href="{{charities.charity_url}}"
+              >{{ charities.charity_url}}</a>
+          </p>
+
           <p>
-            <a class="charities-link" href="{{charities.charity_url}}"
-              >{{ charities.charity_url}}</a
-            >
+            <a class="donate" href="{{charities.donation_link}}">Donate</a>
           </p>
         </div>
       </div>

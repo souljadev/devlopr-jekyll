@@ -1,5 +1,5 @@
 title: Moyage
-subtitle: My Journey
+subtitle: A collection of my thoughts, hobbies, and my journey through life.
 description: >- # this means to ignore newlines until "baseurl:"
   Moy's Journey
 
@@ -13,14 +13,11 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
     - text: Contact Me
       url : /contact
     - text: Styleguide
       url: /styleguide
-    - text: Get Started
-      url: /get-started
+
 
 # Edit these details
 
@@ -29,7 +26,7 @@ author: Brendan Moy
 author_bio: Fullstack Developer who likes to Cook, try new restaurants, code, games
 author_email: "brendan.moy@gmail.com"
 author_website_url: "https://www.brendanmoy.com"
-typewrite-text: devlopr is a jekyll theme built for developers
+typewrite-text: welcome to my site
 
 author_work_experiences:
             - company_name: Google
@@ -58,11 +55,13 @@ charities_details:
                 charity_title: No Kid Hungry
                 charity_description: No Kid Hungry is working to end child hunger in America today by ensuring that all children get the healthy food they need every day to thrive.
                 charity_url: https://www.nokidhungry.org/
+                donation_link: https://secure.nokidhungry.org/site/Donation
                 visibility: true
-              - charity_thumbnail: hack4r.PNG
-                charity_title: Hack4r
-                charity_description: A Platform built for Hackers and Penetration Testers
-                charity_url: https://hack4r.com
+              - charity_thumbnail: https://housingfamilies.org/wp-content/uploads/2019/05/Housing_Families_Logo-transparent-background.png
+                charity_title: Housing Families
+                charity_description: Housing Families provide safe, temporary shelter and quality affordable housing. They can prevent homelessness in the first place. Housing Families offer individualized supportive services to enrich children’s lives, nurture the potential of each family member, and help families maintain permanent housing
+                charity_url: https://housingfamilies.org/
+                donation_link: https://housingfamilies.org/donate/
                 visibility: true
 
 # social links
