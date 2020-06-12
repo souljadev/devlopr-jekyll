@@ -19,17 +19,8 @@ layout: default
         >
           <i class="fab fa-instagram"></i>
         </a>
-        {% endif %} 
-        
-        {% if site.medium_username %}
-        <a
-          class="social-link"
-          href="http://medium.com/@{{ site.medium_username }}"
-        >
-          <i class="fab fa-medium-m"></i>
-        </a>
-        {% endif %} 
-        
+        {% endif %}
+
         {% if site.github_username %}
         <a
           class="social-link"
@@ -37,8 +28,8 @@ layout: default
         >
           <i class="fab fa-github"></i>
         </a>
-        {% endif %} 
-        
+        {% endif %}
+
         {% if site.linkedin_username %}
         <a
           class="social-link"
@@ -46,15 +37,15 @@ layout: default
         >
           <i class="fab fa-linkedin-in"></i>
         </a>
-        {% endif %} 
+        {% endif %}
       </p>
 
       {% if site.author_email %}
       <h6><i class="fas fa-envelope"></i> <a class="email"
           href="mailto: brendan.moy@gmail.com">
           {{ site.author_email }}</a></h6>
-      {% endif %} 
-      
+      {% endif %}
+
       {% if site.author_website_url %}
       <h6><i class="fas fa-link"></i> <a class="author-website"
           href="https://www.brendanmoy.com"> {{ site.author_website_url }}</a> </h6>
@@ -75,20 +66,19 @@ layout: default
     </div>
 
   </div>
-  <div class="col-lg-7">
-    {% if site.author_bio %}
+  <div class="col-lg-6">
+
     <div class="card">
       <h1 class="card-title">About</h1>
-      <p>{{ site.author_bio }}</p>
+      <p>Hi, I am Brendan, I'm a Fullstack Developer who likes to cook, try new restaurants, code, watch anime, and an avid gamer. I created this site as a reference point, like a personal bookmark. It contains a collection of my thoughts, hobbies, and everything else in between.</p>
     </div>
-    {% endif %} 
 
     <!--charities section-->
     {% if site.show_charities_details == true %}
     <div id="charities" class="card">
       <h1 class="card-title">Charities</h1>
       <br />
-      {% for charities in site.charities_details %} 
+      {% for charities in site.charities_details %}
         {% if charities.visibility
       == true %}
       <div class="row" id="charities-card">
@@ -102,44 +92,73 @@ layout: default
           <h4 class="charity-title">{{ charities.charity_title }}</h4>
           <h6 class="charity-info">{{ charities.charity_info}}</h6>
           <p class="charity-desc">{{ charities.charity_description }}</p>
-          <p><a class="charities-link" href="{{charities.charity_url}}"
+          <p><a class="charities-link" href="{{charities.charity_url}}" target="_blank"
               >{{ charities.charity_url}}</a>
           </p>
 
           <p>
-            <a class="donate" href="{{charities.donation_link}}">Donate</a>
+            <a class="donate" href="{{charities.donation_link}}" target="_blank">Donate</a>
           </p>
         </div>
       </div>
       <br />
       {% endif %} {% endfor %}
     </div>
-    {% endif %} 
-    
-   
-    
-    {% if site.show_author_education_details == true %}
-    <div class="card">
-      <h1 class="card-title">Education</h1>
-      <br />
-      {% for detail in site.author_education_details %} {% if detail.visibility
-      == true %}
-      <div class="row">
-        <div class="col-md-2">
-          <img
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
-            class="company-logo"
-          />
-        </div>
-        <div class="col-md-6">
-          <h4 class="experience-title">{{detail.college_degree }}</h4>
-          <h6 class="experience-info">{{detail.college_name}}</h6>
-          <p class="experience-desc">{{detail.description}}</p>
-          <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>
-        </div>
-      </div>
-      {% endif %} {% endfor %}
-    </div>
     {% endif %}
+
+    <!--gaming section-->
+    <div class="card">
+      <h1 class="card-title">Games I'm Currently Playing</h1>
+      <br />
+      <div class="row">
+          <a href="https://www.pubg.com/en-us" target="_blank">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/3/3d/PlayerUnknown%27s_Battlegrounds_Steam_Logo.jpg"
+              class="game-img"
+            />
+          </a>
+
+          <a href="https://www.callofduty.com/warzone" target="_blank">
+            <img
+              src="https://i.pcmag.com/imagery/articles/05NMo7tK7fcV9zkzsTuNtsq-1.fit_scale.size_2698x1517.v1584283419.png"
+              class="game-img" />
+          </a>
+
+          <a href="https://www.bungie.net" target="_blank">
+            <img
+              src="https://static-cdn.jtvnw.net/ttv-boxart/Destiny%202.jpg"
+              class="game-img" />
+          </a>
+
+          <a href="https://www.rocketleague.com/" target="_blank">
+            <img src="https://steamcdn-a.akamaihd.net/steam/apps/252950/header_alt_assets_11.jpg?t=1585155609"
+              class="game-img"/>
+          </a>
+      </div>
+    </div>
+
+    <!--anime section-->
+    <div class="card">
+      <h1 class="card-title">Animes I'm Currently Watching</h1>
+      <br />
+      <div class="row">
+        <a href="https://www.crunchyroll.com/one-piece" target="_blank">
+          <img src="https://img1.ak.crunchyroll.com/i/spire4/8056a82e973dde98ebb82abd39dc69731564519729_full.jpg"
+            class="anime-img" />
+        </a>
+
+        <a href="https://www.crunchyroll.com/hunter-x-hunter" target="_blank">
+          <img
+            src="https://img1.ak.crunchyroll.com/i/spire3/cbb55a6382682bf71e91f685c6473c5a1487736090_full.jpg"
+            class="anime-img" />
+        </a>
+
+        <a href="https://www.crunchyroll.com/dr-stone" target="_blank">
+          <img src="https://img1.ak.crunchyroll.com/i/spire3/cd61320a82ff1c1ff30f08f464a97f3f1571635066_full.jpg"
+            class="anime-img" />
+        </a>
+
+      </div>
+    </div>
   </div>
 </div>
