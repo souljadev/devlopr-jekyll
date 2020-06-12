@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Using Siteleaf CMS with devlopr-jekyll Blog
-author: Sujay Kundu
-date: '2019-05-22 14:35:23 +0530'
-category: guides
-summary: Use Siteleaf CMS for your devlopr jekyll blog
-thumbnail: /assets/img/posts/siteleaf.jpg
+title: Cooking Tools
+date: '2020-06-01 14:35:23 +0530'
+category: Cooking Tools
+summary: Equipment I use to Cook
+thumbnail: https://dailyanimeart.files.wordpress.com/2016/07/saitama-and-genos-cooking-by-rtil.png
 ---
 
 Hey There, Today we will see on how to unlock the superpowers of our devlopr-jekyll blog. We will be using Siteleaf CMS to modify content of our blog.
@@ -43,7 +42,3 @@ Select Free Plan :
 Congrats ! Your New Admin Panel for your devlopr-jekyll blog is ready to make any changes to your blog :D
 
 ![Using Siteleaf ](/assets/img/posts/siteleaf/9.png){:class="img-fluid"}
-
-
-
-

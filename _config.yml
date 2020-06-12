@@ -41,19 +41,11 @@ author_work_experiences:
               description: Worked on various Azure Cloud Products
               visibility: true
 
-author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: true
-
 charities_details:
               - charity_thumbnail: https://www.nokidhungry.org/sites/default/files/2018-08/nkhlogo.png
                 charity_title: No Kid Hungry
                 charity_description: No Kid Hungry is working to end child hunger in America today by ensuring that all children get the healthy food they need every day to thrive.
-                charity_url: https://www.nokidhungry.org/
+                charity_url: https://www.nokidhungry.org
                 donation_link: https://secure.nokidhungry.org/site/Donation
                 visibility: true
               - charity_thumbnail: https://housingfamilies.org/wp-content/uploads/2019/05/Housing_Families_Logo-transparent-background.png

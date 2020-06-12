@@ -206,6 +206,10 @@ header {
     background-color: var(--card-background-color) !important;
 }
 
+.card-img-top{
+    height: 400px;
+}
+
 .left-card-title {
     font-family: Arial,
     "Helvetica Neue",
@@ -428,6 +432,22 @@ header {
     }
 }
 
+.anime-img, .game-img {
+    height: 200px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.game-img:hover {
+    opacity: 0.3;
+}
+
+.anime-img:hover {
+    opacity: 0.3;
+}
+
 #blog-posts-container{
     margin-left:20px !important;
 }
@@ -501,11 +521,14 @@ header {
     }
     .social-link {
         color: var(--social-link-color) !important;
-        font-size: 15px;
+        font-size: 30px;
         padding: 5px;
         margin: 2px;
         text-decoration: none !important;
     }
+        .social-link:hover {
+            opacity: 0.7;
+        }
     .email {
         color: var(--email-color) !important;
         font-size: 15px;
@@ -541,12 +564,6 @@ header {
     }
 }
 
-
-.company-logo {
-    width: 100px;
-    height: 100px;
-}
-
 .author-profile-img {
     width: 150px;
     height: 150px;
@@ -563,41 +580,6 @@ header {
 .blog-post:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-
-
-#newsletter_footer {
-    background-color: var(--newsletter-background-color);
-    color: var(--main-text-color);
-    text-align: center;
-    margin-top: 100px;
-}
-
-    #mc-embedded-subscribe-form {
-        width: 100%;
-        padding: 50px;
-    }
-
-    #mc_embed_signup_scroll_footer {
-        margin-left: 25%;
-        margin-right: 25%;
-        text-align: center;
-        font-size: 22px;
-    }
-
-    #mce-EMAIL_footer {
-        width: 400px;
-        padding: 14px;
-        color: #111;
-        border-color: #111;
-        background: bisque;
-        text-align: center;
-        text-transform: capitalize;
-        border: 1px solid #fff;
-    }
-
-    #mc-embedded-subscribe_footer {
-        margin-top: 30px;
-    }
 
 footer {
     width: 100%;
@@ -638,32 +620,6 @@ footer {
                      text-align: center;
                  }
           }
-
-            #mc-embedded-subscribe-form {
-                width: 100%;
-                padding: 50px;
-            }
-
-            #mc_embed_signup_scroll_footer {
-                margin-left: 5%;
-                margin-right: 5%;
-                text-align: center;
-                font-size: 12px;
-            }
-
-            #mce-EMAIL_footer {
-                width: 200px;
-                padding: 14px;
-                color: #111;
-                border-color: #fff;
-                text-align: center;
-                text-transform: capitalize;
-                border: 1px solid #fff;
-            }
-
-            #mc-embedded-subscribe_footer {
-                margin-top: 30px;
-            }
 
             .blog-post {
                 width: 100%;
@@ -717,32 +673,6 @@ footer {
                text-align: center;
            }
     }
-
-      #mc-embedded-subscribe-form {
-          width: 100%;
-          padding: 50px;
-      }
-
-      #mc_embed_signup_scroll_footer {
-          margin-left: 5%;
-          margin-right: 5%;
-          text-align: center;
-          font-size: 12px;
-      }
-
-      #mce-EMAIL_footer {
-          width: 200px;
-          padding: 14px;
-          color: #111;
-          border-color: #fff;
-          text-align: center;
-          text-transform: capitalize;
-          border: 1px solid #fff;
-      }
-
-      #mc-embedded-subscribe_footer {
-          margin-top: 30px;
-      }
 
       .blog-post {
           width: 100%;
@@ -805,32 +735,6 @@ footer {
             padding-left:  0px;
             padding-right: 0px;
         }
-
-          #mc-embedded-subscribe-form {
-              width: 100%;
-              padding: 50px;
-          }
-
-          #mc_embed_signup_scroll_footer {
-              margin-left: 5%;
-              margin-right: 5%;
-              text-align: center;
-              font-size: 12px;
-          }
-
-          #mce-EMAIL_footer {
-              width: 200px;
-              padding: 14px;
-              color: #111;
-              border-color: #fff;
-              text-align: center;
-              text-transform: capitalize;
-              border: 1px solid #fff;
-          }
-
-          #mc-embedded-subscribe_footer {
-              margin-top: 30px;
-          }
 
           .blog-post {
                 width: 100%;
