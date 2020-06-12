@@ -23,7 +23,6 @@ urls:
 
 author_logo: profile.png
 author: Brendan Moy
-author_bio: Fullstack Developer who likes to Cook, try new restaurants, code, games
 author_email: "brendan.moy@gmail.com"
 author_website_url: "https://www.brendanmoy.com"
 typewrite-text: welcome to my site
@@ -70,7 +69,7 @@ linkedin_username: brendanmoy
 instagram_username: princeofchinatown
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: 
+mailchimp_form_url:
 
 # formspree (contact form)
 formspree_email: brendan.moy@gmail.com

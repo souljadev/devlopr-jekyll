@@ -19,8 +19,8 @@ layout: default
         >
           <i class="fab fa-instagram"></i>
         </a>
-        {% endif %} 
-        
+        {% endif %}
+
         {% if site.medium_username %}
         <a
           class="social-link"
@@ -28,8 +28,8 @@ layout: default
         >
           <i class="fab fa-medium-m"></i>
         </a>
-        {% endif %} 
-        
+        {% endif %}
+
         {% if site.github_username %}
         <a
           class="social-link"
@@ -37,8 +37,8 @@ layout: default
         >
           <i class="fab fa-github"></i>
         </a>
-        {% endif %} 
-        
+        {% endif %}
+
         {% if site.linkedin_username %}
         <a
           class="social-link"
@@ -46,15 +46,15 @@ layout: default
         >
           <i class="fab fa-linkedin-in"></i>
         </a>
-        {% endif %} 
+        {% endif %}
       </p>
 
       {% if site.author_email %}
       <h6><i class="fas fa-envelope"></i> <a class="email"
           href="mailto: brendan.moy@gmail.com">
           {{ site.author_email }}</a></h6>
-      {% endif %} 
-      
+      {% endif %}
+
       {% if site.author_website_url %}
       <h6><i class="fas fa-link"></i> <a class="author-website"
           href="https://www.brendanmoy.com"> {{ site.author_website_url }}</a> </h6>
@@ -76,19 +76,18 @@ layout: default
 
   </div>
   <div class="col-lg-7">
-    {% if site.author_bio %}
+
     <div class="card">
       <h1 class="card-title">About</h1>
-      <p>{{ site.author_bio }}</p>
+      <p>Fullstack Developer who likes to Cook, try new restaurants, code, games</p>
     </div>
-    {% endif %} 
 
     <!--charities section-->
     {% if site.show_charities_details == true %}
     <div id="charities" class="card">
       <h1 class="card-title">Charities</h1>
       <br />
-      {% for charities in site.charities_details %} 
+      {% for charities in site.charities_details %}
         {% if charities.visibility
       == true %}
       <div class="row" id="charities-card">
@@ -114,10 +113,10 @@ layout: default
       <br />
       {% endif %} {% endfor %}
     </div>
-    {% endif %} 
-    
-   
-    
+    {% endif %}
+
+
+
     {% if site.show_author_education_details == true %}
     <div class="card">
       <h1 class="card-title">Education</h1>
